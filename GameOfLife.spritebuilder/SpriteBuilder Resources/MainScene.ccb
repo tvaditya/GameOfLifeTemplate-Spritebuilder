@@ -1711,7 +1711,7 @@
 											<real>1</real>
 											<real>1</real>
 											<false/>
-											<integer>0</integer>
+											<integer>1</integer>
 										</array>
 									</dict>
 									<dict>
@@ -1906,8 +1906,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>seqExpanded</key>
-						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
@@ -1980,6 +1978,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -2343,8 +2343,6 @@
 						<string>Grid.ccb</string>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
