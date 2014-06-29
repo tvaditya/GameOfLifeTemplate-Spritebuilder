@@ -156,7 +156,7 @@ static const int GRID_COLUMNS = 10;
 
 - (void)updateCreatures
 {
- /*   //Create a double-nested loop to access every creatura in the loop
+    //Create a double-nested loop to access every creatura in the loop
     // iterate through the rows
     // note that NSArray has a method 'count' that will return the number of elements in the array
     for (int i = 0; i < [_gridArray count]; i++)
@@ -170,18 +170,18 @@ static const int GRID_COLUMNS = 10;
             // remember that every creature has a 'livingNeighbors' property that we created earlier
             //currentCreature.livingNeighbors = 0;
             
-           if ((currentCreature.livingNeighbors = 3)||(currentCreature.livingNeighbors=2))
+           if ((currentCreature.livingNeighbors = 3))
            {
                currentCreature.isAlive = TRUE;
            }
-           else
+           else if (((currentCreature.livingNeighbors < 2))||((currentCreature.livingNeighbors>3)))
            {
                currentCreature.isAlive = FALSE;
            }
             
        }
    }
-*/
+
 
 }
 @end
