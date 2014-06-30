@@ -2105,8 +2105,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.39260563254356384</real>
-							<real>0.51250004768371582</real>
+							<real>0.28697183728218079</real>
+							<real>0.51875007152557373</real>
 							<integer>0</integer>
 							<integer>2</integer>
 							<integer>2</integer>
@@ -2170,7 +2170,7 @@
 						<string>FloatScale</string>
 						<key>value</key>
 						<array>
-							<real>30</real>
+							<real>20</real>
 							<integer>0</integer>
 						</array>
 					</dict>
