@@ -172,12 +172,12 @@ static const int GRID_COLUMNS = 10;
             
            if ((currentCreature.livingNeighbors = 3))
            {
-               currentCreature.isAlive = TRUE;
+               currentCreature.isAlive = YES;
                numAlive += 1;
            }
            else if (((currentCreature.livingNeighbors < 2))||((currentCreature.livingNeighbors>3)))
            {
-               currentCreature.isAlive = FALSE;
+               currentCreature.isAlive = NO;
            }
             
        }
