@@ -1571,8 +1571,8 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>49</real>
-													<real>58</real>
+													<real>41</real>
+													<real>59</real>
 													<integer>0</integer>
 													<integer>0</integer>
 													<integer>0</integer>
@@ -1745,8 +1745,6 @@
 												</array>
 											</dict>
 										</array>
-										<key>selected</key>
-										<true/>
 									</dict>
 								</array>
 								<key>customClass</key>
@@ -2107,8 +2105,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.5</real>
-							<real>0.5</real>
+							<real>0.39260563254356384</real>
+							<real>0.51250004768371582</real>
 							<integer>0</integer>
 							<integer>2</integer>
 							<integer>2</integer>
@@ -2121,8 +2119,8 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.5</real>
-							<real>0.5</real>
+							<real>0.48272600769996643</real>
+							<real>5.6493749618530273</real>
 						</array>
 					</dict>
 					<dict>
@@ -2140,12 +2138,20 @@
 					</dict>
 					<dict>
 						<key>name</key>
+						<string>rotation</string>
+						<key>type</key>
+						<string>Degrees</string>
+						<key>value</key>
+						<real>90</real>
+					</dict>
+					<dict>
+						<key>name</key>
 						<string>string</string>
 						<key>type</key>
 						<string>Text</string>
 						<key>value</key>
 						<array>
-							<string>SpriteBuilder</string>
+							<string>Adi’s Game of Life</string>
 							<false/>
 						</array>
 					</dict>
@@ -2164,7 +2170,7 @@
 						<string>FloatScale</string>
 						<key>value</key>
 						<array>
-							<real>50</real>
+							<real>30</real>
 							<integer>0</integer>
 						</array>
 					</dict>
@@ -2281,6 +2287,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
