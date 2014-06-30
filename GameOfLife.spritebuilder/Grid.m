@@ -166,7 +166,7 @@ static const int GRID_COLUMNS = 10;
             Creature *currentCreature = _gridArray[i][j];
             
             // remember that every creature has a 'livingNeighbors' property that we created earlier
-            //currentCreature.livingNeighbors = 0;
+            currentCreature.livingNeighbors = 0;
             
            if ((currentCreature.livingNeighbors = 3))
            {
