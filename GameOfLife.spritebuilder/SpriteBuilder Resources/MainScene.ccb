@@ -2138,20 +2138,13 @@
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>rotation</string>
-						<key>type</key>
-						<string>Degrees</string>
-						<key>value</key>
-						<real>90</real>
-					</dict>
-					<dict>
-						<key>name</key>
 						<string>string</string>
 						<key>type</key>
 						<string>Text</string>
 						<key>value</key>
 						<array>
-							<string>Adi’s Game of Life</string>
+							<string>
+</string>
 							<false/>
 						</array>
 					</dict>
@@ -2170,7 +2163,7 @@
 						<string>FloatScale</string>
 						<key>value</key>
 						<array>
-							<real>20</real>
+							<real>50</real>
 							<integer>0</integer>
 						</array>
 					</dict>
