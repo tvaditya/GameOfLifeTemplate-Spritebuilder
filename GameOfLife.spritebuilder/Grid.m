@@ -172,7 +172,7 @@ static const int GRID_COLUMNS = 10;
             // remember that every creature has a 'livingNeighbors' property that we created earlier
             //currentCreature.livingNeighbors = 0;
             
-           if ((currentCreature.livingNeighbors == 3))
+           if ((currentCreature.livingNeighbors > 2 ))
            {
                currentCreature.isAlive = YES;
                numAlive++;
@@ -185,6 +185,6 @@ static const int GRID_COLUMNS = 10;
        }
    }
 
-    _totalAlive = numAlive+1;
+    _totalAlive = numAlive;
 }
 @end
