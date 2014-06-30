@@ -162,7 +162,7 @@ static const int GRID_COLUMNS = 10;
     for (int i = 0; i < [_gridArray count]; i++)
     {
         // iterate through all the columns for a given row
-        numAlive += 1;
+        numAlive ++;
         
         for (int j = 0; j < [_gridArray[i] count]; j++)
         {
@@ -172,12 +172,12 @@ static const int GRID_COLUMNS = 10;
             // remember that every creature has a 'livingNeighbors' property that we created earlier
             //currentCreature.livingNeighbors = 0;
             
-           if ((currentCreature.livingNeighbors = 3))
+           if ((currentCreature.livingNeighbors == 3))
            {
                currentCreature.isAlive = YES;
                
            }
-           else if (((currentCreature.livingNeighbors < 2))||((currentCreature.livingNeighbors>3)))
+           else if (currentCreature.livingNeighbors <= 1 || currentCreature.livingNeighbors >= 4)
            {
                currentCreature.isAlive = NO;
            }
