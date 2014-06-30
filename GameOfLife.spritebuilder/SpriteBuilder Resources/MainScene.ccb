@@ -951,7 +951,7 @@
 												<key>value</key>
 												<array>
 													<real>41</real>
-													<real>60</real>
+													<real>58</real>
 													<integer>0</integer>
 													<integer>0</integer>
 													<integer>0</integer>
@@ -988,7 +988,7 @@
 												<string>Text</string>
 												<key>value</key>
 												<array>
-													<string>Sample Text</string>
+													<string>Population</string>
 													<false/>
 												</array>
 											</dict>
@@ -1124,6 +1124,8 @@
 												</array>
 											</dict>
 										</array>
+										<key>selected</key>
+										<true/>
 									</dict>
 									<dict>
 										<key>UUID</key>
@@ -1331,8 +1333,6 @@
 												</array>
 											</dict>
 										</array>
-										<key>selected</key>
-										<true/>
 									</dict>
 									<dict>
 										<key>UUID</key>
@@ -1404,7 +1404,7 @@
 												<string>Text</string>
 												<key>value</key>
 												<array>
-													<string>Sample Text</string>
+													<string>0</string>
 													<false/>
 												</array>
 											</dict>
